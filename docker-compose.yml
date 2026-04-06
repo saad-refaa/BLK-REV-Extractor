@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  blk-rev-extractor:
+    build: .
+    image: blk-rev-extractor:1.0
+    container_name: blk-rev-extractor
+    volumes:
+      - ./data/input:/data/input:ro
+      - ./data/output:/data/output
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: extract -i /data/input/sample.blk -o /data/output/result.json -f json
+
+  # GUI version (requires X11 forwarding)
+  blk-rev-extractor-gui:
+    build: .
+    image: blk-rev-extractor:1.0
+    container_name: blk-rev-extractor-gui
+    environment:
+      - DISPLAY=${DISPLAY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./data:/data
+    command: python main.py
+    network_mode: host

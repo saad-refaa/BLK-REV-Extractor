@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include data/signatures *.json
+recursive-include frontend *.py
+recursive-include backend *.py
+recursive-include utils *.py

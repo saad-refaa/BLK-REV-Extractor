@@ -1,0 +1,23 @@
+# BLK-REV Extractor Pro - Dependencies
+# Python 3.8+ required
+
+# Core dependencies (required)
+cryptography>=3.4.8
+
+# GUI - PyQt5 (optional but recommended)
+PyQt5>=5.15.0
+
+# Compression libraries
+lz4>=3.1.10
+zstandard>=0.17.0
+
+# Excel export
+openpyxl>=3.0.9
+
+# Utilities
+pathlib2>=2.3.6; python_version<"3.4"
+
+# Development dependencies (optional)
+pytest>=6.0.0
+flake8>=3.9.0
+black>=21.0.0

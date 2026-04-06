@@ -105,11 +105,12 @@ This project is licensed under the MIT License.
 للإبلاغ عن مشاكل أو طلب ميزات جديدة:
 To report issues or request features:
 
-- Email: support@blk-rev-extractor.com
-- Issues: [GitHub Issues](https://github.com/yourusername/blk-rev-extractor/issues)
+- Email: saadr2851@gamil.com
+- Issues: [GitHub Issues](https://github.com/saad-refaa/blk-rev-extractor/issues)
 
 ---
 
 **ملاحظة هامة:** / **Important Note:**
 هذه الأداة مخصصة لاستعادة البيانات من الأنظمة القديمة فقط. يجب استخدامها بشكل قانوني وأخلاقي.
 This tool is intended for data recovery from legacy systems only. Use it legally and ethically.
+to buy full ver saadr2851@gamil.com
